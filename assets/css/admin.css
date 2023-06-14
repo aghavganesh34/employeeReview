@@ -1,0 +1,72 @@
+/* Heading of the admin Page */
+.mainContainer .container-fluid .text-center {
+    background-color: chocolate;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    /* align-items: center;
+    align-content: center; */
+    color: blue;
+}
+
+/* Assign Heading */
+.assingHeadine {
+    display: flex;
+    justify-content: center;
+}
+
+/* Container for assigning reviwer and reviewing */
+.reviewContainerf {
+
+
+    display: inline-block;
+    border: 1px solid red;
+    width: 40%;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 200px;
+}
+
+.reviewContainer {
+    border: 1px solid red;
+    width: 40%;
+    align-items: center;
+    margin-top: 80px;
+    margin-right: 200px;
+}
+
+.container-fluid {
+    display: flex;
+}
+
+/* for the reviewer, containere */
+.reviewer {
+    width: 90%;
+}
+
+/* Submit buttons div*/
+.submitButtons {
+    margin-left: 25%;
+    width: 50%;
+}
+
+/* Submit buttons  */
+.submitButtons button {
+    background-color: rgba(23, 209, 178, 0.868);
+    width: 20vw;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 20px;
+
+}
+
+/* This button is used in assigning admin,  */
+.submitButtons2 {
+    width: 20vw;
+}
+
+.btn {
+    background-color: rgba(23, 209, 178, 0.868);
+}
