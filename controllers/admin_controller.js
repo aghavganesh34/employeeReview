@@ -55,7 +55,7 @@ module.exports.setReviewrAndReviewe = async function(req, res){
             else{
                 let sender = await Users.findById(req.body.sender);
                 let reciver = await Users.findById(req.body.reciver);
-                //console.log(sender + " " + reciver);
+                console.log(sender + " " + reciver);
                 sender.userToReview.push(reciver);
                 sender.save();
               
